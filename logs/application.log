@@ -1,0 +1,3 @@
+2025-02-25 23:06:54,360 INFO com.qa.opencart.logger.Log [main] Running tests on env:  null
+2025-02-25 23:06:54,368 WARN com.qa.opencart.logger.Log [main] env is null....hence running tests on QA env
+2025-02-25 23:06:54,371 INFO com.qa.opencart.logger.Log [main] null and browser name is : chrome
