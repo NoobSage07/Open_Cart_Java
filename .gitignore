@@ -1,1 +1,53 @@
+# Ignore target directory (compiled Java classes, JAR files, etc.)
 /target/
+
+# Ignore log files and temp files
+/logs/
+*.log
+
+# Ignore test output
+/test-output/
+
+# Ignore IntelliJ project files
+*.iml
+.idea/
+
+# Ignore Eclipse project files
+.project
+.classpath
+.settings/
+
+# Ignore Maven specific files
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Ignore build output directories
+/target/
+/out/
+
+# Ignore temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Ignore generated reports and results
+/allure-results/
+*.report
+
+# Ignore Jenkins-related files
+/Jenkinsfile_sample
+
+# Ignore IDE-specific metadata
+.DS_Store
+
+# Ignore compiled resources
+/src/test/resources/**/*.class
+
+# Ignore dependency artifacts
+/dependency-reduced-pom.xml
