@@ -2,12 +2,12 @@
 <testng-results ignored="1" total="6" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-29T22:08:03 IST" name="Default suite" finished-at="2025-03-29T22:08:09 IST" duration-ms="5644">
+  <suite started-at="2025-03-29T22:25:33 IST" name="Default suite" finished-at="2025-03-29T22:25:39 IST" duration-ms="5859">
     <groups>
     </groups>
-    <test started-at="2025-03-29T22:08:03 IST" name="Default test" finished-at="2025-03-29T22:08:09 IST" duration-ms="5644">
+    <test started-at="2025-03-29T22:25:33 IST" name="Default test" finished-at="2025-03-29T22:25:39 IST" duration-ms="5859">
       <class name="com.qa.opencart.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3ec2ecea]" started-at="2025-03-29T22:08:03 IST" name="setup" finished-at="2025-03-29T22:08:06 IST" duration-ms="3266" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@39e43310]" started-at="2025-03-29T22:25:33 IST" name="setup" finished-at="2025-03-29T22:25:36 IST" duration-ms="3396" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -22,23 +22,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="forgotPwdLinkExistTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3ec2ecea]" started-at="2025-03-29T22:08:06 IST" name="forgotPwdLinkExistTest" finished-at="2025-03-29T22:08:06 IST" duration-ms="45" status="PASS">
+        <test-method signature="forgotPwdLinkExistTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@39e43310]" started-at="2025-03-29T22:25:36 IST" name="forgotPwdLinkExistTest" finished-at="2025-03-29T22:25:36 IST" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotPwdLinkExistTest -->
-        <test-method signature="loginPageTitleTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3ec2ecea]" started-at="2025-03-29T22:08:06 IST" name="loginPageTitleTest" finished-at="2025-03-29T22:08:06 IST" duration-ms="20" status="PASS">
+        <test-method signature="loginPageTitleTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@39e43310]" started-at="2025-03-29T22:25:36 IST" name="loginPageTitleTest" finished-at="2025-03-29T22:25:36 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method signature="loginPageURLTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3ec2ecea]" started-at="2025-03-29T22:08:06 IST" name="loginPageURLTest" finished-at="2025-03-29T22:08:06 IST" duration-ms="13" status="PASS">
+        <test-method signature="loginPageURLTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@39e43310]" started-at="2025-03-29T22:25:36 IST" name="loginPageURLTest" finished-at="2025-03-29T22:25:36 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageURLTest -->
-        <test-method signature="logoExistTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3ec2ecea]" started-at="2025-03-29T22:08:06 IST" name="logoExistTest" finished-at="2025-03-29T22:08:06 IST" duration-ms="22" status="PASS">
+        <test-method signature="logoExistTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@39e43310]" started-at="2025-03-29T22:25:36 IST" name="logoExistTest" finished-at="2025-03-29T22:25:36 IST" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoExistTest -->
-        <test-method signature="loginTest()[pri:2147483647, instance:com.qa.opencart.tests.LoginPageTest@3ec2ecea]" started-at="2025-03-29T22:08:06 IST" name="loginTest" finished-at="2025-03-29T22:08:07 IST" duration-ms="370" status="FAIL">
+        <test-method signature="loginTest()[pri:2147483647, instance:com.qa.opencart.tests.LoginPageTest@39e43310]" started-at="2025-03-29T22:25:36 IST" name="loginTest" finished-at="2025-03-29T22:25:37 IST" duration-ms="438" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[tab crashed
@@ -46,10 +46,10 @@
 Build info: version: '4.23.1', revision: '656257d8e9'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b7e6e0fd18494ee553e90034dd7e49e4, sendKeysToElement {value=[Ljava.lang.CharSequence;@29188050, id=f.5A4240372C39989A109FBDC8626A8B83.d.028EDE90CEC7B2B1C428EEFE863A9530.e.7}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\saura\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58746}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58746/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (b7e6e0fd18494ee553e90034dd7e49e4)] -> id: input-password]
-Session ID: b7e6e0fd18494ee553e90034dd7e49e4]]>
+Command: [fb276166f749f44bc061f718db74abe7, sendKeysToElement {id=f.F345C36591B03FBF0BA1C163458B3503.d.49D2EBBA9534B19172D0B772037DC316.e.6, value=[Ljava.lang.CharSequence;@2591d23a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\saura\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58908}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58908/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fb276166f749f44bc061f718db74abe7)] -> id: input-password]
+Session ID: fb276166f749f44bc061f718db74abe7]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: tab crashed
@@ -57,10 +57,10 @@ Session ID: b7e6e0fd18494ee553e90034dd7e49e4]]>
 Build info: version: '4.23.1', revision: '656257d8e9'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b7e6e0fd18494ee553e90034dd7e49e4, sendKeysToElement {value=[Ljava.lang.CharSequence;@29188050, id=f.5A4240372C39989A109FBDC8626A8B83.d.028EDE90CEC7B2B1C428EEFE863A9530.e.7}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\saura\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58746}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58746/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (b7e6e0fd18494ee553e90034dd7e49e4)] -> id: input-password]
-Session ID: b7e6e0fd18494ee553e90034dd7e49e4
+Command: [fb276166f749f44bc061f718db74abe7, sendKeysToElement {id=f.F345C36591B03FBF0BA1C163458B3503.d.49D2EBBA9534B19172D0B772037DC316.e.6, value=[Ljava.lang.CharSequence;@2591d23a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\saura\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58908}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58908/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fb276166f749f44bc061f718db74abe7)] -> id: input-password]
+Session ID: fb276166f749f44bc061f718db74abe7
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -108,7 +108,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@3ec2ecea]" started-at="2025-03-29T22:08:07 IST" name="tearDown" finished-at="2025-03-29T22:08:09 IST" duration-ms="1680" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@39e43310]" started-at="2025-03-29T22:25:37 IST" name="tearDown" finished-at="2025-03-29T22:25:39 IST" duration-ms="1677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
